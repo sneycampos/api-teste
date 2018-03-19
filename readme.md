@@ -4,33 +4,38 @@ Esta api foi desenvolvida com o simples intuito de um teste.
 
 Passo-a-passo para instalação e uso:
 
-1 - Clone o repositório
+Clone o repositório
 
 `$ git clone https://github.com/sneycampos/api-teste.git`
 
-2 - Instale as dependências do Composer
+Instale as dependências do Composer
 
 `$ composer update`
 
-3 - Gerar novas chaves para o Laravel e JWT
+Renomeie o arquivo `.env.example` para `.env` e faça as devidas configurações de banco de dados
+ 
+Gerar novas chaves para o Laravel e JWT
 
 `$ php artisan key:generate`
 
-`$ php artisan jwt:generate`
+`$ php artisan jwt:secret`
 
-4 - Configure conexão com base de dados em `.env` 
-
-5 - Rodar as migrations
+Rodar as migrations
 
 `php artisan migrate`
 
-6 - Para criar usuário de teste, basta rodar a Seeder:
+Para criar usuário de teste, basta rodar a Seeder:
+
 `php artisan db:seed --class=UserTableSeeder`
  
 login: `user@email.com`
 password: `secret`
 
-6 - Rotas e Métodos:
+Executar servidor built-in:
+
+`php artisan serve`
+
+Rotas e Métodos:
 
 `POST | api/login` - Efetuar login, necessário informar email e senha    
 
