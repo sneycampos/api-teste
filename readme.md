@@ -1,6 +1,6 @@
 ## API - CRUD de produtos
 
-Esta api foi desenvolvida com o simples intuito de um teste. 
+Esta api foi desenvolvida para fins de estudos. 
 
 Passo-a-passo para instalação e uso:
 
