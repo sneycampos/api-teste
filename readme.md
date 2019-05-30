@@ -1,6 +1,8 @@
 ## API - CRUD de produtos
 
+Simples API de teste usando Laravel e Json Web Token (JWT) 
 Esta api foi desenvolvida para fins de estudos. 
+
 
 Passo-a-passo para instalação e uso:
 
